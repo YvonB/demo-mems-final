@@ -6,8 +6,8 @@
 
         <div class="inner-banner">
             <h3 class="sub_title_ban"><img src="/img/datastore-logo.png"  class="logo_ban" />Detecteur - Analyseur Web des Gaz polluants SDP - IoT</h3>
-            <h1>Know what really exists in the air you breathe</h1>
-            <h3 class="sub_title_ban" style="padding-bottom: 20px;">Follow your health closely</h3>
+            <h1>Savoir ce qui existe vraiment dans l'air que vous respirez</h1>
+            <h3 class="sub_title_ban" style="padding-bottom: 20px;">Suivez votre santé de près</h3>
             <a href="<?php require 'href-home-or-login.php'; ?>">
             <button type="submit" class="btn btn-primary">
               <?php 
@@ -40,7 +40,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <!-- Page courante -->
               <ul class="nav navbar-nav">
-                <li class="active colortextnav"><a href="" style="color:#fafafa !important;"><b>Welcome</b><span class="sr-only">(current)</span></a></li>
+                <li class="active colortextnav"><a href="" style="color:#fafafa !important;"><b>Bienvenue</b><span class="sr-only">(current)</span></a></li>
               </ul>
               <!-- Recherche -->
               <form class="navbar-form navbar-left" style="margin-left: 150px;">

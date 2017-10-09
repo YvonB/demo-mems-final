@@ -55,7 +55,7 @@
 
     <!-- div permettant de visualiser la courbe -->
     <div align="center">  
-        <h4 style="float: left;margin-bottom: 30px;">Instantaneous values</h4>
+        <h4 style="float: left;margin-bottom: 30px;">Valeurs instantanées</h4>
         <div class="mon_slide">
             <div id="slider">
                 <div id="nh3" style="min-width: 310px; height: 400px;"></div><!-- div qui va contenir la courbe -->
@@ -68,7 +68,7 @@
 
 <!-- ============================ Historiques ====================================== -->
 <div class="col-md-8">
-    <h2 style="margin-bottom: 30px;margin-left: -15px;">Historics</h2>
+    <h2 style="margin-bottom: 30px;margin-left: -15px;">Historiques</h2>
 </div>
 <div class="histCo2Tab">
     <table class="table stats caps histoco2">

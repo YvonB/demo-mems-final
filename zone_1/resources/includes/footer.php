@@ -13,7 +13,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h3> Important Links </h3>
+                    <h3> Liens importants</h3>
                     <ul>
                         <li> <a href="https://cloud.google.com/appengine/"> Google Cloud Plateforme </a> </li>
                         <li> <a href="https://cloud.google.com/appengine/docs"> Google App Engine Documentation </a> </li>
@@ -25,7 +25,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h3> Location </h3>
+                    <h3> Emplacement </h3>
                     <ul>
                         <li> <a href="nos-zones.appspot.com"> Cur Vontovorona </a> </li>
                         <li> <a href="nos-zones.appspot.com"> Tunnel d' Ambanidia </a> </li>
