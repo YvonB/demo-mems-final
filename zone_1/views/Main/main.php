@@ -171,7 +171,7 @@ Notifications</h2>
         <div class="promo">
           <div class="deal">
             <span style="padding-bottom: 15px;padding-top: 5px;">CO<sub>2</sub></span>
-            <span>Le dioxyde de carbone</span>
+            <span>Dioxyde de carbone</span>
           </div>
           <span class="price" style="background-color: <?php
                                                             require_once '../../resources/includes/mg_m3-bg-co2.php';
@@ -206,7 +206,7 @@ Notifications</h2>
         <div class="promo scale">
           <div class="deal">
             <span style="padding-bottom: 15px;padding-top: 5px;">CO</span>
-            <span>Le monoxyde de carbone</span>
+            <span>Monoxyde de carbone</span>
           </div>
           <span class="price" style="background-color: <?php
                                                           require_once '../../resources/includes/mg_m3-bg-co.php';                                                            
@@ -241,8 +241,8 @@ Notifications</h2>
         </div>
         <div class="promo">
           <div class= "deal">
-            <span style="padding-bottom: 15px;padding-top: 5px;">NH3</span>
-            <span>L'ammoniaque</span>
+            <span style="padding-bottom: 15px;padding-top: 5px;">NH<sub>3<sub></span>
+            <span>Ammoniaque</span>
           </div>
           <span class="price" style="background-color: <?php
                                                           require_once '../../resources/includes/mg_m3-bg-nh3.php';
@@ -268,7 +268,7 @@ Notifications</h2>
           <ul class="features">
             <li class="li_brute">Issu de la fermentation</li>
             <li class="li_brute">de la décomposition des substances organiques</li>
-            <li class="li_brute">par des microorganismes en milieu anaérobie.</li>   
+            <li class="li_brute">par des microorganismes.</li>   
           </ul>
           <a href="<?php 
                                     require '../../resources/includes/href-home-or-login.php';

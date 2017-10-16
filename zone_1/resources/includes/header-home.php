@@ -8,7 +8,36 @@
           </div> 
 
           <div class="date">
-            <h3><?php echo  date('l jS \of F Y'); ?></h3>
+            <h3><?php 
+                     setlocale(LC_TIME, 'fr_FR.UTF8');
+                     $jours = array(
+                                '', 
+                                'Lundi',
+                                'Mardi',
+                                'Mercredi',
+                                'Jeudi',
+                                'Vendredi',
+                                'Samedi',
+                                'Dimanche'
+                     );
+                     $mois = array(
+                                '',
+                                'Janvier',
+                                'Fevrier',
+                                'Mars',
+                                'Avril',
+                                'Mai',
+                                'Juin',
+                                'Juillet',
+                                'Août',
+                                'Septembre',
+                                'Octobre',
+                                'Novembre',
+                                'Decembre'
+                     );
+                     echo $jours[date('N')]. ' ' .date('d'). ' ' .$mois[date('n')].strftime(' %Y');
+                ?>
+            </h3>
           </div> <!-- end date -->
 
           <?php if($notif_mail != 0)
