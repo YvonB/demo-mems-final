@@ -14,7 +14,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>SDPE - IoT nh3</title>
+    <title>SDPE - IoT nh<sub>3</sub></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -68,7 +68,7 @@
 
 <!-- ============================ Historiques ====================================== -->
 <div class="col-md-8">
-    <h2 style="margin-bottom: 30px;margin-left: -15px;">Historiques</h2>
+    <h2 style="margin-bottom: 30px;margin-left: -15px;">Historique</h2>
 </div>
 <div class="histCo2Tab">
     <table class="table stats caps histoco2">

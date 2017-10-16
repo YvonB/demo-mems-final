@@ -68,7 +68,7 @@
 
 <!-- ============================ Historiques ====================================== -->
 <div class="col-md-8">
-    <h2 style="margin-bottom: 30px;margin-left: -15px;">Historiques</h2>
+    <h2 style="margin-bottom: 30px;margin-left: -15px;">Historique</h2>
 </div>
 <div class="histCo2Tab">
     <table class="table stats caps histoco2">

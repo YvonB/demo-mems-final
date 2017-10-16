@@ -77,7 +77,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active colortextnav"><a href=""><b><i class="fa fa-home" style="margin-right: 4px;color:#fafafa !important;font-size: 18px;"></i>Home</b><span class="sr-only">(current)</span><span style="text-transform: lowercase;">Retour vers le home</span></a></li>
+                <li class="active colortextnav"><a href=""><b><i class="fa fa-home" style="margin-right: 4px;color:#fafafa !important;font-size: 18px;"></i>Accueil</b><span class="sr-only">(current)</span><span style="text-transform: lowercase;">Retour vers le home</span></a></li>
               </ul>
               <form class="navbar-form navbar-left" style="margin-left: 150px;">
                 <div class="form-group">

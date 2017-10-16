@@ -8,7 +8,37 @@
           </div> 
 
           <div class="date">
-            <h3><?php echo  date('l jS \of F Y'); ?></h3>
+            <h3>
+            <?php 
+              setlocale(LC_TIME, 'fr_FR.UTF8');
+              $jours = array(
+                         '', 
+                         'Lundi',
+                         'Mardi',
+                         'Mercredi',
+                         'Jeudi',
+                         'Vendredi',
+                         'Samedi',
+                         'Dimanche'
+              );
+              $mois = array(
+                         '',
+                         'Janvier',
+                         'Fevrier',
+                         'Mars',
+                         'Avril',
+                         'Mai',
+                         'Juin',
+                         'Juillet',
+                         'Août',
+                         'Septembre',
+                         'Octobre',
+                         'Novembre',
+                         'Decembre'
+              );
+              echo $jours[date('N')]. ' ' .date('d'). ' ' .$mois[date('n')].strftime(' %Y');
+            ?>
+            </h3>
           </div> <!-- end date -->
 
           <?php if($notif_mail != 0)
@@ -41,7 +71,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand colortextnav" href="/"><b>SDPE - IoT</b><span id="span_accueil" style="text-transform: lowercase;">Vers l'acueil</span></a>
+              <a class="navbar-brand colortextnav" href="/"><b>SDPE - IoT</b><span id="span_accueil" style="text-transform: lowercase;">Vers la page de bienvenue</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,9 +86,9 @@
                 <button type="submit" class="btn btn-default" style="display: none;"><b>Chercher</b></button>
               </form>
               <ul class="nav navbar-nav navbar-right colortextnav">
-                <li><a href="/home"><b><i class="fa fa-home" style="margin-right: 4px;font-size: 18px;"></i>Back Home</b><span style="text-transform: lowercase;">Retour vers le home</span></a></li>
-                <li><a href="/home/co2">Gaz Carbonique<span style="text-transform: lowercase;">Courbe de co2</span></a></li>
-                <li><a href="/home/nh3">Ammoniaque<span style="text-transform: lowercase;">Courbe de nh3</span></a></li>
+                <li><a href="/home"><b><i class="fa fa-home" style="margin-right: 4px;font-size: 18px;"></i>Retour vers l'accueil</b><span style="text-transform: lowercase;">Retour vers le home</span></a></li>
+                <li><a href="/home/co2">Gaz Carbonique<span style="text-transform: lowercase;">Courbe de co<sub>2</sub></span></a></li>
+                <li><a href="/home/nh3">Ammoniaque<span style="text-transform: lowercase;">Courbe de nh<sub>3</sub></span></a></li>
                 <li class="dropdown colortextnav">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true" style="margin-right: 4px;font-size: 16px;"></i><b><?php echo htmlspecialchars($user->getNickname());?></b><p class="caret karoty"></p></a>
                   <ul class="dropdown-menu">

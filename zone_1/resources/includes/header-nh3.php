@@ -41,13 +41,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand colortextnav" href="/"><b>SDPE - IoT</b><span id="span_accueil" style="text-transform: lowercase;">Retour à l'accueil</span></a>
+              <a class="navbar-brand colortextnav" href="/"><b>SDPE - IoT</b><span id="span_accueil" style="text-transform: lowercase;">Vers la page de bienvenue</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active colortextnav"><a href="" style="color:#fafafa !important;"><b>NH3</b><span class="sr-only">(current)</span></a></li>
+                <li class="active colortextnav"><a href="" style="color:#fafafa !important;"><b>NH<sub>3</sub></b><span class="sr-only">(current)</span></a></li>
               </ul>
               <form class="navbar-form navbar-left" style="margin-left: 150px;">
                 <div class="form-group">
@@ -56,9 +56,9 @@
                 <button type="submit" class="btn btn-default" style="display: none;"><b>Chercher</b></button>
               </form>
               <ul class="nav navbar-nav navbar-right colortextnav">
-                <li><a href="/home"><b><i class="fa fa-home" style="margin-right: 4px;font-size: 18px;"></i>Back Home</b><span style="text-transform: lowercase;">Retour vers le home</span></a></li>
+                <li><a href="/home"><b><i class="fa fa-home" style="margin-right: 4px;font-size: 18px;"></i>Retour vers l'accueil</b><span style="text-transform: lowercase;">Retour vers le home</span></a></li>
                 <li><a href="/home/co">Monoxyde de Carbone<span style="text-transform: lowercase;">Courbe de co</span></a></li>
-                <li><a href="/home/co2">Gaz Carbonique<span style="text-transform: lowercase;">Courbe de co2</span></a></li>
+                <li><a href="/home/co2">Gaz Carbonique<span style="text-transform: lowercase;">Courbe de co<sub>2</sub></span></a></li>
                 <li class="dropdown colortextnav">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true" style="margin-right: 4px;font-size: 16px;"></i><b><?php echo htmlspecialchars($user->getNickname());?></b><p class="caret karoty"></p></a>
                   <ul class="dropdown-menu">
