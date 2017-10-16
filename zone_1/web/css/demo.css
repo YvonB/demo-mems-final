@@ -106,6 +106,14 @@ a:hover span, a:focus span{
   margin-left: 5px !important;
   margin-bottom: 7px !important;
 }
+#definition
+{
+  box-shadow: 0 2px 5px -2px grey;
+}
+#definition:hover
+{
+  box-shadow: 0px 12px 18px -2px grey;
+}
 #span_accueil
 {
     text-transform: lowercase;

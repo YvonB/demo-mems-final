@@ -5,12 +5,15 @@
 	<title>SDPE - IoT Choix De Zones</title>
 	
 	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="zone_1/web/css/demo.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="icon" type="image/png" href="/img/datastore-logo.png" />
 
 </head>
 
 <body>
-        
+    <?php require 'web/includes/header-map.php';?>   
 	<div id="map"></div>
 
 	<!-- The Modal -->
@@ -30,5 +33,10 @@
     </script>
     <script type="text/javascript" src="/js/map.js"></script>
 		<script type="text/javascript" src="/js/modal.js"></script>
+
+		<?php require 'zone_1/resources/includes/footer.php';?>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

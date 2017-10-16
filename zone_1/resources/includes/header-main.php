@@ -12,9 +12,9 @@
             <button type="submit" class="btn btn-primary">
               <?php 
                 if(isset($user)) 
-                  {echo "Go Home<i class='fa fa-arrow-right' style='margin-left: 15px;'></i>";}
+                  {echo "Vers l'accueil<i class='fa fa-arrow-right' style='margin-left: 15px;'></i>";}
                 else 
-                  {echo "See More Content";}
+                  {echo "Voir plus de contenu";}
               ?>
             </button></a>
         </div>
