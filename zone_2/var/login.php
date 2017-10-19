@@ -67,7 +67,7 @@ body
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
 }
 
 /* Add Animation */
@@ -143,14 +143,14 @@ body
     </div>
     <div class="modal-body">
       <p align="center">Une connexion à votre compte est requise pour voir le contenu de la page que vous avez demandé !</p>
-      <p align="center">Cliquer sur <mark class="mark_ok">"Accept"</mark> pour <mark class="mark_ok">accepter et continuer</mark> , sinon <mark class="mark_cancel">fermer</mark> cette fenêtre ou cliquez le bouton <mark class="mark_cancel">"Cancel" pour annuler</mark>. Merci !</p>
+      <p align="center">Cliquer sur <mark class="mark_ok">"Accepter"</mark> pour <mark class="mark_ok">accepter et continuer</mark> , sinon <mark class="mark_cancel">fermer</mark> cette fenêtre ou cliquez le bouton <mark class="mark_cancel">"Anuuler" pour annuler</mark>. Merci !</p>
      
-      <button type="button" onclick="document.location.href='javascript:history.back()'" class="btn btn-primary cancelbtn">Cancel</button>
-       <button type="button" id="ok_btn" class="btn btn-primary okbtn">Accept</button>
+      <button type="button" onclick="document.location.href='javascript:history.back()'" class="btn btn-primary cancelbtn">Annuler</button>
+       <button type="button" id="ok_btn" class="btn btn-primary okbtn">Accepter</button>
 
     </div>
     <div class="modal-footer">
-      <h4 align="center" style="color:#fafafa">© 2017, YvonB All rights reserved</h4>
+      <h4 align="center" style="color:#fafafa">© 2017, YvonB, Toute reproduction est interdite</h4>
     </div>
   </div>
 

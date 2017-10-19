@@ -10,7 +10,7 @@
 <!-- head -->
 <head>
     <meta charset="utf-8">
-    <title>SDPE - IoT Home</title>
+    <title>SDPE - IoT Accueil</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -59,14 +59,14 @@
 <!-- =====================La définition et la Réssource===================== -->
             <div class="row">
                 <div class="col-md-8">
-                    <h2><i class="fa fa-info" style="margin-left: 3px;margin-right: 4px;" aria-hidden="true"></i>Welcome to SPDE <?php  echo htmlspecialchars($user->getNickname()); ?></h2>
-                    <dd>Merci de vous inscrire et/ou de vous connecter à notre site. Vous ne serez pas déçue ;) .<br>Premièrement, comme vous pouvez toute de suite le voir, il y a une petite enveloppe en haut à droite de notre bar de navigation. Il représente votre boite mail afin de pouvoir vous alerter. Ici, juste à droite, une courbe montrant les pourcentages des polluants non acceptables. Plus bas un slide montrant l’évolution des trois polluants co2, co et nh3 en temps réelle. Et enfin vous pouvez aussi voir juste les 10 dernières valeurs insérées si vous voulez ! 
+                    <h2><i class="fa fa-info" style="margin-left: 3px;margin-right: 4px;" aria-hidden="true"></i>Bienvenue sur SPDE Mr ou Mme <?php  echo htmlspecialchars($user->getNickname()); ?></h2>
+                    <dd>Merci de vous inscrire et/ou de vous connecter à notre site. Vous ne serez pas déçue ;) .<br>Premièrement, comme vous pouvez toute de suite le voir, il y a une petite enveloppe en haut à droite de notre bar de navigation. Il représente votre boite mail afin de pouvoir vous alerter. Ici, juste à droite, une courbe montrant les pourcentages des polluants non acceptables. Plus bas un slide montrant l’évolution des trois polluants co<sub>2</sub>, co et nh<sub>3</sub> en temps réelle. Et enfin vous pouvez aussi voir juste les 10 dernières valeurs insérées si vous voulez ! 
                     </dd>
                     
                 </div>
                 <!-- ============== -->
                 <div class="col-md-4">
-                    <h2 align="center"><i class="fa fa-pie-chart" style="margin-right: 8px" aria-hidden="true"></i>Gas not accepted</h2>
+                    <h2 align="center"><i class="fa fa-pie-chart" style="margin-right: 8px" aria-hidden="true"></i>Polluants non acceptables</h2>
                       <div id="container" style="width:100%;height: 400px"> 
                        
                         <!-- // Tant que les données ne sont pas prêtes on affiche un loader   -->
@@ -105,7 +105,7 @@
                                   type: 'column',
                               },
                               title: {
-                                  text: 'Know where you find is livable or not'
+                                  text: 'Taux en pourcentage de polluants non acceptables'
                               },
                               subtitle: {
                                   text: ''
@@ -120,7 +120,7 @@
                               yAxis: {
                                   min: 0,
                                   title: {
-                                      text: 'Percentage (ppm)'
+                                      text: 'Pourcentage (%)'
                                   }
                               },
                               tooltip: {
@@ -164,7 +164,7 @@
             <!-- ============================= Slide des 03 courbes ======================== -->
                   <!-- 1)HTML -->
                   <div class="col-md-12">
-                  <h2><i class="fa fa-line-chart" style="margin-left: 3px;margin-right: 8px;" aria-hidden="true"></i>See all at once</h2>
+                  <h2><i class="fa fa-line-chart" style="margin-left: 3px;margin-right: 8px;" aria-hidden="true"></i>Voir tout à la fois</h2>
                   <dd>D'un seule coup d'œil, visualisez la courbe de chacun des polluants. Ceci en temps réel !</dd>
                   </div>
 
@@ -385,7 +385,7 @@ $(document).ready(function() {
 <!-- jquery hide show toggle -->
 <div class="col-md-8">
     <h2 id="toggler"><i class="fa fa-history" style="margin-left: 3px;margin-right: 4px;" aria-hidden="true"></i>
-See Quickly the last 10 inserted values</h2>
+    Voir rapidement les 10 dernières valeurs insérées</h2>
 <dd>Seulement les 10 dernières valeurs isérées dernièrement vous intéresse ? Clique le titre pour les voir ;) .</dd>
 </div>
 <div class="row">

@@ -45,9 +45,9 @@
 		}
 
 	// premier marqueur == première zone
-	  createMarker({lat: -18.9703576 , lng: 47.42391939999993}, "Aller vers la page SDPE Vontovorona", 'http://premiere-zone.appspot.com', '<h2 class="sous_titre">Cur Vontovorona</h2>');
+	  createMarker({lat: -18.9703576 , lng: 47.42391939999993}, "Aller vers la page SDPE Vontovorona", 'http://espa-vontovorona.appspot.com', '<h2 class="sous_titre">Cur Vontovorona</h2>');
 	//seconde zone == second marqueur
-	  createMarker({lat: -18.9074364 , lng: 47.52175009999996}, "Aller vers la page SDPE Antsahavola", 'http://seconde-zone.appspot.com', '<h2 class="sous_titre">Antsahavola</h2>');
+	  createMarker({lat: -18.9074364 , lng: 47.52175009999996}, "Aller vers la page SDPE Antsahavola", 'http://deuxieme-zone.appspot.com', '<h2 class="sous_titre">Antsahavola</h2>');
 	//3eme zone == 3eme marqueur
 	   createMarker({lat: -18.93 , lng: 47.52611109999998}, "Aller vers la page SDPE Tsimbazaza Parc", 'http://zone-3.appspot.com', '<h2 class="sous_titre">Tsimbazaza Parc</h2>');
 	//4eme zone == 4eme marqueur

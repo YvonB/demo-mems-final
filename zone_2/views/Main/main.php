@@ -8,7 +8,7 @@ require_once '../../controllers/Main/getSession.php';
 
 <head>
     <meta charset="utf-8">
-    <title>SDPE - IoT Welcome</title>
+    <title>SDPE - IoT Bienvenue</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -48,8 +48,8 @@ require_once '../../controllers/Main/getSession.php';
                 <!-- Définition -->
                 <div class="col-md-8">
                     <h2><i class="fa fa-info" style="margin-left: 3px;margin-right: 4px;" aria-hidden="true"></i>
-                        What is it ?</h2>
-                        <dd>Etes vous <b>stricte</b> à <b>l’air</b> que vous respirez ? Il est important pour vous de savoir le <b>taux</b> des <b>polluants</b> vous entour pour <mark> <b>respirer tranquille </b></mark>?<br>Ce site et le système que nous avons conçue est faite <b>pour vous</b>. 
+                        Qu'est-ce que c'est?</h2>
+                        <dd>Etes-vous <b>stricte</b> à <b>l’air</b> que vous respirez ? Il est important pour vous de savoir le <b>taux</b> des <b>polluants</b> vous entour pour <mark> <b>respirer tranquille </b></mark>?<br>Ce site et le système que nous avons conçue est faite <b>pour vous</b>. 
                         Ici vous pouvez <b>visualiser en temps réel</b> et même <mark><b>recevoir des notifications</b></mark> lorsque le taux des polluants dépasse leur seuil acceptable. <br>
                         En plus, ce sont les trois polluants qui sont très répandu et dangereux voire mortel que notre système détecte pour vous <b>alerter</b> et vous pouvez prendre une décision appropriée. <br> Ce sont premièrement <em><b>le dioxyde de carbone</b></em> ou gaz carbonique provenant du secteur des transports de l’industrie, de l’habitat et aussi lors de la respiration des animaux et de la photosynthèse des végétaux. Ensuite <em><b>le monoxyde de carbone</b></em> issu de la combustion incomplète des combustibles et des carburants (la combustion complète produisant du CO2). Et enfin <em><b>l’ammoniaque</b></em> qui provient de rejets organiques de l’élevage, épandage de fertilisants.
                         </dd>
@@ -57,7 +57,7 @@ require_once '../../controllers/Main/getSession.php';
                 <!-- Dadhboard -->
                 <div class="col-md-4" >
                     <h3 align="center"><i class="fa fa-tachometer" style="margin-right: 4px;" aria-hidden="true"></i>
-                    Counter Of Gases not acceptable</h3>
+                    Compteurs de polluants non acceptables</h3>
 
                     <div id="chart_div" style="width: 400px; height: 120px;margin:auto;">
                     
@@ -143,7 +143,7 @@ require_once '../../controllers/Main/getSession.php';
         <!-- ============================== Le Map ==================================== -->
             <div>
                 <h2><i class="fa fa-map-marker" style="margin-right: 4px;margin-left: 3px;" aria-hidden="true"></i>
-                        Where are our sensors?</h2>
+                        Où est notre capteur?</h2>
                         <dd>C'est l'endroit où est installé le capteur en ce moment même.</dd>
                 <div class="my_map histoco2">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.373973254404!2d47.529468015323786!3d-18.914833987180533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07de34d65ea03%3A0xea472922cda706d5!2sTunnel+Ambanidia%2C+Antananarivo%2C+Madagascar!5e0!3m2!1sfr!2sfr!4v1505731330036" width="675" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -172,13 +172,13 @@ Notifications</h2>
    <div class="promos">  
         <div class="promo">
           <div class="deal">
-            <span style="padding-bottom: 15px;padding-top: 5px;">CO2</span>
+            <span style="padding-bottom: 15px;padding-top: 5px;">CO<sub>2</sub></span>
             <span>Quantité de dioxyde de carbone</span>
           </div>
           <span class="price" style="background-color: <?php
                                                             require_once '../../resources/includes/mg_m3-bg-co2.php';
                                                         ?>"><?php 
-                                                        if(isset($masseVolumique_co2)) echo htmlspecialchars($masseVolumique_co2)." ".'<em>mg/m3</em>'; 
+                                                        if(isset($masseVolumique_co2)) echo htmlspecialchars($masseVolumique_co2)." ".'<em>mg/m<sup>3</sup></em>'; 
                                                         else 
                                                             {
                                                                 ?>
@@ -202,7 +202,7 @@ Notifications</h2>
           </ul>
           <a href="<?php 
                                     require '../../resources/includes/href-home-or-login.php';
-                                ?>"><button type="submit" class="btn btn-primary sign_up">See More
+                                ?>"><button type="submit" class="btn btn-primary sign_up">Voir plus
                     </button></a>
         </div>
         <div class="promo scale">
@@ -214,7 +214,7 @@ Notifications</h2>
                                                           require_once '../../resources/includes/mg_m3-bg-co.php';                                                            
                                                         ?>"><?php 
                                                         if(isset($masseVolumique_co)) 
-                                                            echo htmlspecialchars($masseVolumique_co)." ".'<em>mg/m3</em>';
+                                                            echo htmlspecialchars($masseVolumique_co)." ".'<em>mg/m<sup>3</sup></em>';
                                                         else 
                                                         {
                                                             ?>
@@ -238,19 +238,19 @@ Notifications</h2>
           </ul>
           <a href="<?php 
                                     require '../../resources/includes/href-home-or-login.php';
-                                ?>"><button type="submit" class="btn btn-primary sign_up">See More
+                                ?>"><button type="submit" class="btn btn-primary sign_up">Voir plus
                    </button></a>
         </div>
         <div class="promo">
           <div class= "deal">
-            <span style="padding-bottom: 15px;padding-top: 5px;">NH3</span>
+            <span style="padding-bottom: 15px;padding-top: 5px;">NH<sub>3</sub></span>
             <span>L'ammoniaque</span>
           </div>
           <span class="price" style="background-color: <?php
                                                           require_once '../../resources/includes/mg_m3-bg-nh3.php';
                                                        ?>"><?php 
                                                         if(isset($masseVolumique_nh3)) 
-                                                            echo htmlspecialchars($masseVolumique_nh3)." ".'<em>mg/m3</em>'; 
+                                                            echo htmlspecialchars($masseVolumique_nh3)." ".'<em>mg/m<sup>3</sup></em>'; 
                                                         else 
                                                            {
                                                                 ?>
@@ -270,11 +270,11 @@ Notifications</h2>
           <ul class="features">
             <li class="li_brute">Issu de la fermentation</li>
             <li class="li_brute">de la décomposition des substances organiques</li>
-            <li class="li_brute">par des microorganismes en milieu anaérobie.</li>   
+            <li class="li_brute">par des microorganismes.</li>   
           </ul>
           <a href="<?php 
                                     require '../../resources/includes/href-home-or-login.php';
-                                ?>"><button type="submit" class="btn btn-primary sign_up">See More
+                                ?>"><button type="submit" class="btn btn-primary sign_up">Voir plus
                    </button></a>
         </div> 
     </div> 
@@ -297,7 +297,7 @@ Notifications</h2>
         });
     </script>
 
-    <h2 id="toggler_legend"><i class="fa fa-bookmark" style="margin-right: 4px;margin-left: 3px;" aria-hidden="true"></i>See The Legend</h2>
+    <h2 id="toggler_legend"><i class="fa fa-bookmark" style="margin-right: 4px;margin-left: 3px;" aria-hidden="true"></i>Que signifie ces couleurs de fond ?</h2>
 
     <div id="toggle">   
             <div class="float">
@@ -319,8 +319,8 @@ Notifications</h2>
 
  <!-- ========================== Espace connexion ============================== -->
             
-  <h2 style="margin-top: 100px;"><i class="fa fa-plus" style="margin-right: 4px;margin-left: 3px;" aria-hidden="true"></i>
-  See more content</h2>
+  <h2 style="margin-top:100px;"><i class="fa fa-plus" style="margin-right: 4px;margin-left: 3px;" aria-hidden="true"></i>
+  Voir plus de contenu</h2>
             
             <div class="row">
                 <div class="col-md-4" id="login_btn">
@@ -329,7 +329,7 @@ Notifications</h2>
                             <button type="submit" class="btn btn-primary" align="center" style="margin-left: -30px;">
                                 <?php 
                                     if(isset($user)) 
-                                        {echo "Go Home<i class='fa fa-arrow-right' style='margin-left: 15px;'></i>";}
+                                        {echo "Accueil<i class='fa fa-arrow-right' style='margin-left: 15px;'></i>";}
                                     else 
                                         {echo "Se Connecter";}
                                 ?>

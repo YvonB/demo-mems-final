@@ -295,7 +295,7 @@ Notifications</h2>
         });
     </script>
 
-    <h2 id="toggler_legend"><i class="fa fa-bookmark" style="margin-right: 4px;margin-left: 3px; aria-hidden="true"></i>Que signifie ces couleurs de fond ?</h2>
+    <h2 id="toggler_legend"><i class="fa fa-bookmark" style="margin-right: 4px;margin-left: 3px; aria-hidden="true""></i>Que signifie ces couleurs de fond ?</h2>
 
     <div id="toggle">   
             <div class="float">
@@ -317,7 +317,7 @@ Notifications</h2>
 
  <!-- ========================== Espace connexion ============================== -->
                         
-          <h2 style="margin-top: 100px;"><i class="fa fa-plus" style="margin-right: 4px;margin-left: 3px;" aria-hidden="true"></i>
+          <h2><i class="fa fa-plus" style="margin-right: 4px;margin-left: 3px;" aria-hidden="true"></i>
           Voir plus de contenu</h2>                
             
             <div class="row">
@@ -327,7 +327,7 @@ Notifications</h2>
                             <button type="submit" class="btn btn-primary" align="center" style="margin-left: -30px;">
                                 <?php 
                                     if(isset($user)) 
-                                        {echo "Go Home<i class='fa fa-arrow-right' style='margin-left: 15px;'></i>";}
+                                        {echo "Accueil<i class='fa fa-arrow-right' style='margin-left: 15px;'></i>";}
                                     else 
                                         {echo "Se Connecter";}
                                 ?>

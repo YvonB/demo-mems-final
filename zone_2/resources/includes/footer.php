@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h3> Contact </h3>
+                    <h3> Contacter nous </h3>
                     <ul>
                         <li> <a href="#"> yvonbenahita@gmail.com </a> </li>
                         <li> <a href="#"> yvanharry@gmail.com </a> </li>
@@ -13,7 +13,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h3> Important Links </h3>
+                    <h3>Liens importants</h3>
                     <ul>
                         <li> <a href="https://cloud.google.com/appengine/"> Google Cloud Plateforme </a> </li>
                         <li> <a href="https://cloud.google.com/appengine/docs"> Google App Engine Documentation </a> </li>
@@ -25,7 +25,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h3> Location </h3>
+                    <h3> Emplacements </h3>
                     <ul>
                         <li> <a href="nos-zones.appspot.com"> Cur Vontovorona </a> </li>
                         <li> <a href="nos-zones.appspot.com"> Tunnel d' Ambanidia </a> </li>
@@ -40,7 +40,7 @@
 
     <div class="footer-bottom">
         <div class="container">
-            <div class="pull-left"><b class="bold copyright"> Copyright © 2017 | YvonB | All rights reserved.</b></div>
+            <div class="pull-left"><b class="bold copyright"> Copyright © 2017 | YvonB | Toute reproduction est interdite.</b></div>
             <div class="pull-right"><b class="bold suivez">Suivez votre santez de près avec le SDPE</b><a href="/contact_views"><button class="order_btn"><b class="bold">COMMANDER</b></button></a></div>    
         </div>
     </div>
