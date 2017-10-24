@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <h2><i class="fa fa-info" style="margin-left: 3px;margin-right: 4px;" aria-hidden="true"></i>Bienvenue à vous Mr ou Mme <?php  echo htmlspecialchars($user->getNickname()); ?> sur SDPE - IoT</h2>
-                    <dd>Merci de vous inscrire et/ou connecter à notre site. Vous ne serez pas déçue ;) .<br>Premièrement, comme vous pouvez toute de suite le voir, il y a une petite enveloppe en haut à droite de notre bar de navigation. Il représente votre boite mail afin de pouvoir vous alerter. Ici, juste à droite, une courbe montrant les pourcentages des polluants non acceptables. Plus bas un slide montrant l’évolution des trois polluants co<sub>2</sub>, co et nh<sub>3</sub> en temps réelle. Et enfin vous pouvez aussi voir juste les 10 dernières valeurs insérées si vous voulez ! 
+                    <dd>Merci de vous inscrire et/ou connecter à notre site. Vous ne serez pas déçue ;) .<br>Premièrement, comme vous pouvez toute de suite le voir, il y a une petite enveloppe en haut à droite de la barre de navigation. Il représente votre boite mail afin de pouvoir vous alerter. Ici,dans cette page, juste à droite, un histogramme montrant les pourcentages des polluants non acceptables. Plus bas un slide montrant l’évolution des trois polluants co<sub>2</sub>, co et nh<sub>3</sub> en temps réel. Et enfin vous pouvez aussi voir juste les 10 dernières valeurs insérées si vous voulez ! 
                     </dd>
                     
                 </div>

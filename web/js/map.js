@@ -1,10 +1,10 @@
 
 (function(){
 
-	// Un Map avec comme centre 'Ambodiafontsy'
+	// Un Map avec comme centre 'Ampitatafika'
 	var map = new google.maps.Map(document.getElementById('map'), {
 	    zoom: 13,
-	    center: {lat: -18.9413966, lng: 47.46252389999995}, 
+	    center: {lat: -18.9, lng: 47.47699590000002}, 
 	    mapTypeId: google.maps.MapTypeId.TERRAIN
 	});
 
