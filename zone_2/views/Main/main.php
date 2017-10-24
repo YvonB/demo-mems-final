@@ -48,10 +48,10 @@ require_once '../../controllers/Main/getSession.php';
                 <!-- Définition -->
                 <div class="col-md-8">
                     <h2><i class="fa fa-info" style="margin-left: 3px;margin-right: 4px;" aria-hidden="true"></i>
-                        Qu'est-ce que c'est?</h2>
-                        <dd>Etes-vous <b>stricte</b> à <b>l’air</b> que vous respirez ? Il est important pour vous de savoir le <b>taux</b> des <b>polluants</b> vous entour pour <mark> <b>respirer tranquille </b></mark>?<br>Ce site et le système que nous avons conçue est faite <b>pour vous</b>. 
-                        Ici vous pouvez <b>visualiser en temps réel</b> et même <mark><b>recevoir des notifications</b></mark> lorsque le taux des polluants dépasse leur seuil acceptable. <br>
-                        En plus, ce sont les trois polluants qui sont très répandu et dangereux voire mortel que notre système détecte pour vous <b>alerter</b> et vous pouvez prendre une décision appropriée. <br> Ce sont premièrement <em><b>le dioxyde de carbone</b></em> ou gaz carbonique provenant du secteur des transports de l’industrie, de l’habitat et aussi lors de la respiration des animaux et de la photosynthèse des végétaux. Ensuite <em><b>le monoxyde de carbone</b></em> issu de la combustion incomplète des combustibles et des carburants (la combustion complète produisant du CO2). Et enfin <em><b>l’ammoniaque</b></em> qui provient de rejets organiques de l’élevage, épandage de fertilisants.
+                        Qu'est-ce que c'est ?</h2>
+                        <dd>Etes-vous <b>stricte</b> à <b>l’air</b> que vous respirez ? Il est important pour vous de savoir le <b>taux</b> des <b>polluants</b> qui vous entour afin de <mark> <b>respirer tranquillement </b></mark>?<br>Alors, ce site et le système que nous avons conçu sont faits <b>pour vous</b>. 
+                        Ici, vous pouvez <b>visualiser en temps réel</b> le taux des gaz polluants de l'endroit où est installer nos capteurs et même <mark><b>recevoir des notifications</b></mark> lorsque le taux de ces polluants dépasse leur seuil acceptable. <br>
+                        En plus, ce sont les trois polluants qui sont très répandu et dangereux voire mortel que notre système détecte pour vous <b>alerter</b> afin que vous puissiez prendre une décision appropriée. <br> Ce sont premièrement <em><b>le dioxyde de carbone</b></em> ou gaz carbonique provenant du secteur des transports, de l’industrie, de l’habitat et aussi lors de la respiration des animaux et de la photosynthèse des végétaux. Ensuite <em><b>le monoxyde de carbone</b></em> issu de la combustion incomplète des combustibles et des carburants (la combustion complète produisant du CO<sub>2</sub>). Enfin <em><b>l’ammoniaque</b></em> qui provient de rejets organiques de l’élevage, épandage de fertilisants.
                         </dd>
                 </div>
                 <!-- Dadhboard -->
@@ -143,8 +143,8 @@ require_once '../../controllers/Main/getSession.php';
         <!-- ============================== Le Map ==================================== -->
             <div>
                 <h2><i class="fa fa-map-marker" style="margin-right: 4px;margin-left: 3px;" aria-hidden="true"></i>
-                        Où est notre capteur?</h2>
-                        <dd>C'est l'endroit où est installé le capteur en ce moment même.</dd>
+                        Où sont nos capteurs?</h2>
+                        <dd>C'est l'endroit (la zone) où est installé notre dispositif SDPE - IoT en ce moment même.</dd>
                 <div class="my_map histoco2">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.373973254404!2d47.529468015323786!3d-18.914833987180533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07de34d65ea03%3A0xea472922cda706d5!2sTunnel+Ambanidia%2C+Antananarivo%2C+Madagascar!5e0!3m2!1sfr!2sfr!4v1505731330036" width="675" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
@@ -155,11 +155,11 @@ require_once '../../controllers/Main/getSession.php';
 <!-- ========================== Tableau des dernièrs valeurs en mg/m3 ========================== -->
 <h2><i class="fa fa-bell" style="margin-left: 3px;margin-right: 4px;" aria-hidden="true"></i>
 Notifications</h2>
-<dd>Les valeurs ci-dessous (dans le cas où elles existent) sont les valeurs d'un polluant en milligramme par mètre cube. Notons-les <b>p</b>. On les obtient en multipliant le poids moléculaire en gramme du polluant <b>M</b> par sa valeur <b>v</b> en partie par million retournée par le capteur et en divisant le résultat par le volume molaire d'un gaz à temperature et pression ambiantes normales <b>V = 22,4 L<b>. 
+<dd>Les valeurs ci-dessous (dans le cas où elles existent) sont les valeurs d'un polluant en milligramme par mètre cube. Notons-les <b>ᵨ</b>. On les obtient en multipliant le poids moléculaire en gramme du polluant <b>M</b> par sa valeur <b>v</b> en partie par million retournée par le capteur et en divisant le résultat par le volume molaire d'un gaz à temperature et pression ambiantes normales <b>V = 22,4 L<b>. 
 </dd>
 <br>
     <div class="formule-div">
-        <mark><em class="formule"> p = ( M  *  v ) / V </em><mark>
+        <mark><em class="formule"> ᵨ = ( M  *  v ) / V </em><mark>
     </div>
 
 <div class="brute" id="mg_m3" style="height: 420px;">
@@ -301,12 +301,12 @@ Notifications</h2>
 
     <div id="toggle">   
             <div class="float">
-            <div class="carre" style="background-color:#beeb9f;display: inline;"></div> <p style="color: #212121" class="fanazavana">Vous trouvez dans un endroit très aéré ! Vous pouvez être tranquille.</p>
+            <div class="carre" style="background-color:#beeb9f;display: inline;"></div> <p style="color: #212121" class="fanazavana">Vous vous trouvez dans un endroit très aéré ! Vous pouvez être tranquille.</p>
             </div>
         <br>
             <div class="float" style="margin-top: 0px;
                                       margin-right: 400px;">
-            <div class="carre" style="background-color:#e67e22;display: inline;"></div> <p style="color: #e67e22" class="fanazavana">L'endroit est PRESQUE invivable à cause des polluants ! Prenez bien garde !!</p>
+            <div class="carre" style="background-color:#e67e22;display: inline;"></div> <p style="color: #e67e22" class="fanazavana">L'endroit est PRESQUE invivable à cause des polluants ! Prenez bien garde !</p>
             </div>
         <br>
             <div class="float">
