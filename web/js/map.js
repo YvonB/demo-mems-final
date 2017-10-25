@@ -1,7 +1,6 @@
 
 (function(){
 
-	// Un Map avec comme centre 'Ampitatafika'
 	var map = new google.maps.Map(document.getElementById('map'), {
 	    zoom: 13,
 	    center: {lat: -18.9, lng: 47.47699590000002}, 

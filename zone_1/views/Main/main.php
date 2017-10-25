@@ -46,7 +46,7 @@ require_once '../../controllers/Main/getSession.php';
             <!-- ==================== La définition et le Dashboard ===================== -->
             <div class="row">
                 <!-- Définition -->
-                <div id = "definition" class="col-md-8">
+                <div class="col-md-8">
                     <h2><i class="fa fa-info" style="margin-left: 3px;margin-right: 4px;" aria-hidden="true"></i>
                         Qu'est-ce que c'est ?</h2>
                         <dd>Etes-vous <b>stricte</b> à <b>l’air</b> que vous respirez ? Il est important pour vous de savoir le <b>taux</b> des <b>polluants</b> qui vous entour afin de <mark> <b>respirer tranquillement </b></mark>?<br>Alors, ce site et le système que nous avons conçu sont faits <b>pour vous</b>. 
